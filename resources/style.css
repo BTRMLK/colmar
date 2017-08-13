@@ -1,0 +1,82 @@
+body {
+  font-family: helvetica;
+}
+
+.container {
+  display: flex;
+}
+
+header {
+  height: 64px;
+  padding: 0 24px;
+  align-items: center;
+}
+
+header nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+header span { /*sign out adds too much?*/
+  padding-right: 16px;
+}
+
+.main-banner {
+  background-color: lightgray;
+  display: flex;
+}
+
+.main-banner img {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.banner-text {
+  color: grey;
+}
+
+.start-button {
+  background-color: grey;
+  color: white;
+}
+
+.learn-something {
+  margin: 32px 24px;
+}
+
+.articles {
+  margin-top: 32px;
+}
+
+.courses {
+  display: flex;
+  background-color: lightgrey;
+  flex-wrap: wrap;
+  padding-bottom: 32px;
+}
+
+.courses h1 {
+  padding: 32px 0;
+}
+
+.course-box {
+  background-color: white;
+}
+
+.courses img {
+  height: auto;
+}
+
+footer {
+  border-top: 1px solid lightgrey;
+  padding-top: 16px;
+  padding-left: 24px;
+  align-items: center;
+  color: grey;
+}
+
+.footlinks {
+  text-align: right;
+  flex-grow: 1;
+
+}
