@@ -12,7 +12,7 @@
 
   <header class="container">
     <img src=./resources/images/ic-logo.svg>
-    <span>COLMAR<!--color change-->ACEDMAY</span>
+    <span class="title">COLMARACADEMY</span> <!--COLOR-->
       <nav>
         <span>On Campus</span>
         <span>Online</span>
@@ -27,7 +27,7 @@
     <div class="main-banner">
       <img src="./resources/images/banner.jpg">
         <div class="banner-text">
-          <h1>Learn Something New Everyday</h1>
+          <h1>Learn something new everyday</h1>
           <h3>Lorem imspum dolor sit amet, consectetur adipiscing elit.</h3>
           <span class="start-button">Start Here</span>
         </div>
@@ -49,30 +49,37 @@
       <div class="articles">
         <div class="orientation">
           <img src="./resources/images/information-orientation.jpg">
-          <h2>Orientation date</h2>
-          <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
-          <span><a href="#">Read More</a></span>
+          <div class="info">
+            <h2>Orientation date</h2>
+            <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
+            <span><a href="#">Read More</a></span>
+          </div>
         </div>
         <div class="campus">
           <img src="./resources/images/information-campus.jpg">
-          <h2>Our Campus</h2>
-          <p>Find which campus is close by you</p>
-          <span><a href="#">Read More</a></span>
+          <div class="info">
+            <h2>Our Campus</h2>
+            <p>Find which campus is close by you</p>
+            <span><a href="#">Read More</a></span>
+          </div>
         </div>
         <div class="lecture">
-          <img src="./resources/images/information-guest-lecture">
-          <h2>Our guest lecture</h2>
-          <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-          <span><a href="#">Read More</a></span>
+          <img src="./resources/images/information-guest-lecture.jpg">
+          <div class="info">
+            <h2>Our guest lecture</h2>
+            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+            <span><a href="#">Read More</a></span>
+          </div>
         </div>
       </div>
     </div>
 
 <!--COURSES-->
 
+  <h1 class="start-learning">Start Learning</h1>
+
   <div class="container">
     <div class="courses">
-    <h1>Start Learning</h1>
       <div class="course-box">
         <img src="./resources/images/course-software.jpg">
         <h2>Software Engineering</h2>
@@ -115,13 +122,15 @@
 <!--Thesis Exhibit-->
 <!--add video controls-->
 
+<h1 class="exhibit">Thesis exhibit</h1>
+
   <div class="container">
-    <div id="thesis">
-      <h1>Thesis exhibit</h1>
+    <div class="thesis">
+      <div class="video-info">
       <video src="./resources/videos/thesis.mp4">Video Not Supported</video>
       <h2>Reimagine Urban</h2>
       <p>add gibberish and quotes</p>
-
+      </div>
       <div class="column">
         <div class="fisma">
           <img src="./resources/images/thesis-fisma.jpg">
@@ -144,8 +153,8 @@
       <p>&copy;2016 Colmar Academy. All Rights Reserved</p>
     </div>
     <div class="footlinks">
-      <span>Terms</span>
-      <span>Privacy</span>
+      <span class="terms">Terms</span>
+      <span class="privacy">Privacy</span>
     </div>
   </footer>
 

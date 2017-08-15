@@ -12,6 +12,10 @@ header {
   align-items: center;
 }
 
+.title {
+  font-weight: bold;
+}
+
 header nav {
   flex-grow: 1;
   text-align: right;
@@ -32,20 +36,54 @@ header span { /*sign out adds too much?*/
 }
 
 .banner-text {
+  display: flex;
   color: grey;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 24px;
 }
 
 .start-button {
   background-color: grey;
   color: white;
+  padding: 8px 0px;
+  width: 100%;
+  text-align: center;
 }
 
 .learn-something {
   margin: 32px 24px;
 }
 
+.learn-something img {
+
+}
+
 .articles {
   margin-top: 32px;
+}
+
+.info {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.articles img {
+  width: 35%;
+  height: auto;
+  margin: 16px 16px;
+}
+
+.orientation, .campus, .lecture {
+  display: flex;
+  width: 65%;
+
+}
+
+.lecture {
+ background-color: lightgrey;
+
 }
 
 .courses {
@@ -53,18 +91,35 @@ header span { /*sign out adds too much?*/
   background-color: lightgrey;
   flex-wrap: wrap;
   padding-bottom: 32px;
+  justify-content: space-between;
 }
 
-.courses h1 {
-  padding: 32px 0;
+.start-learning {
+  text-align: center;
+  background-color: lightgrey;
+  padding: 32px 0px;
+}
+
+.container .courses {
+  background-color: lightgrey;
 }
 
 .course-box {
   background-color: white;
+  padding-left: 16px;
+
 }
 
-.courses img {
-  height: auto;
+.thesis {
+  display: flex;
+}
+
+video {
+  width: 60%;
+}
+
+.fisma {
+  background-color: lightgrey;
 }
 
 footer {
@@ -78,5 +133,11 @@ footer {
 .footlinks {
   text-align: right;
   flex-grow: 1;
+}
 
+.terms {
+  padding-right: 16px;
+}
+.privacy {
+  padding-right: 24px;
 }
